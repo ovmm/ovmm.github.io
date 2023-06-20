@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>HomeRobot: Open Vocabulary Mobile Manipulation</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -42,7 +42,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!--<nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -80,7 +80,7 @@
     </div>
 
   </div>
-</nav>
+</nav>-->
 
 
 <section class="hero">
@@ -90,30 +90,86 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
           <div class="is-size-5 publication-authors">
+            <!--
+              Sriram Yenamandra$^{*1}$       &  %
+              Arun Ramachandran$^{*1}$       &  %
+              Karmesh Yadav$^{*1,2}$         &  %
+              Austin Wang$^{1}$              \\ %
+              Mukul Khanna$^{1}$             &  %
+              Theophile Gervet$^{2,3}$       & 
+              Tsung-Yen Yang$^2$             & 
+              Vidhi Jain$^{3}$               \\
+              Alexander William Clegg$^{2}$  & 
+              John Turner$^{2}$              &  %
+              Zsolt Kira$^{1}$               &
+              Manolis Savva$^{4}$            \\
+              Angel Chang$^{4}$              & 
+              Devendra Singh Chaplot$^{2}$   & 
+              Dhruv Batra$^{1,2}$            &  %
+              Roozbeh Mottaghi$^{2}$         \\ %
+                                             &  %
+              Yonatan Bisk$^{2,3}$           &  %
+              Chris Paxton$^{2}$             &  %
+            -->
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              Sriram Yenamandra<sup>*1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              Arun Ramachandran<sup>*1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              Karmesh Yadav<sup>*1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              Austin Wang<sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+              Mukul Khanna<sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
+              Theophile Gervet<sup>2,3</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              Tsung-Yen Yang<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Vidhi Jain<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Alexander William Clegg<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              John Turner<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Zsolt Kira<sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Manolis Savva<sup>4</sup>,
+            </span>
+            <span class="author-block">
+              Angel Chang<sup>4</sup>,
+            </span>
+            <span class="author-block">
+              Devendra Singh Chaplot<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Dhruv Batra<sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              Roozbeh Mottaghi<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Yonatan Bisk<sup>2,3</sup>,
+            </span>
+            <span class="author-block">
+              Chris Paxton<sup>2</sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Georgia Tech,</span>
+            <span class="author-block"><sup>2</sup>Meta AI,</span>
+            <span class="author-block"><sup>3</sup>Carnegie Mellon,</span>
+            <span class="author-block"><sup>4</sup>Simon Fraser</span>
           </div>
 
           <div class="column has-text-centered">
@@ -149,7 +205,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/facebookresearch/home-robot"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -158,14 +214,14 @@
                   </a>
               </span>
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!--span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+            </a-->
             </div>
 
           </div>
