@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="description"
-        content="HomeRobot: Open-Vocabulary Mobile Manipulation.">
-  <meta name="keywords" content="Robotics, sim-to-real, mobile manipulation, benchmarking">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HomeRobot: Open Vocabulary Mobile Manipulation</title>
+    <meta charset="utf-8">
+    <meta name="description" content="HomeRobot: Open-Vocabulary Mobile Manipulation.">
+    <meta name="keywords" content="Robotics, sim-to-real, mobile manipulation, benchmarking">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeRobot: Open Vocabulary Mobile Manipulation</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-    gtag('js', new Date());
+        gtag('js', new Date());
 
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+        gtag('config', 'G-PYVRSFMDRL');
+    </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./static/images/favicon.svg">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
 </head>
+
 <body>
 
-<!--<nav class="navbar" role="navigation" aria-label="main navigation">
+    <!--<nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -83,116 +82,115 @@
 </nav>-->
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-	      <img src="./static/images/HomeRobot_Logo_Horiz_Color_white_bg.png"
-	      	   alt="Description of the image"/>
-      </div>
-    </div>
-  </div>
-</section>
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <img src="./static/images/HomeRobot_Logo_Horiz_Color_white_bg.png" alt="Description of the image" />
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">HomeRobot: Open Vocabulary Mobile Manipulation</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">HomeRobot: Open Vocabulary Mobile Manipulation</h1>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
               Sriram Yenamandra<sup>*1</sup>,</span>
-            <span class="author-block">
+                            <span class="author-block">
               Arun Ramachandran<sup>*1</sup>,</span>
-            <span class="author-block">
+                            <span class="author-block">
               Karmesh Yadav<sup>*1,2</sup>,
             </span>
-	  </div>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
+                        </div>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
               Austin Wang<sup>1</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Mukul Khanna<sup>1</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Theophile Gervet<sup>2,3</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Tsung-Yen Yang<sup>2</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Vidhi Jain<sup>3</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Alexander William Clegg<sup>2</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               John Turner<sup>2</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Zsolt Kira<sup>1</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Manolis Savva<sup>4</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Angel Chang<sup>4</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Devendra Singh Chaplot<sup>2</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Dhruv Batra<sup>1,2</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Roozbeh Mottaghi<sup>2</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Yonatan Bisk<sup>2,3</sup>,
             </span>
-            <span class="author-block">
+                            <span class="author-block">
               Chris Paxton<sup>2</sup>
             </span>
-          </div>
+                        </div>
 
-	  <div class="is-size-5 publication-authors"></div>
-          
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>*</sup>Equal contribution</span>
-          </div>
+                        <div class="is-size-5 publication-authors"></div>
 
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Georgia Tech,</span>
-            <span class="author-block"><sup>2</sup>Meta AI,</span>
-            <span class="author-block"><sup>3</sup>Carnegie Mellon,</span>
-            <span class="author-block"><sup>4</sup>Simon Fraser</span>
-          </div>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>*</sup>Equal contribution</span>
+                        </div>
 
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>1</sup>Georgia Tech,</span>
+                            <span class="author-block"><sup>2</sup>Meta AI,</span>
+                            <span class="author-block"><sup>3</sup>Carnegie Mellon,</span>
+                            <span class="author-block"><sup>4</sup>Simon Fraser</span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- PDF Link. -->
+                                <span class="link-block">
                 <a href="./OVMM_ArXiv.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Paper</span>
-                </a>
-              </span>
-              <span class="link-block">
+                                <span>Paper</span>
+                                </a>
+                                </span>
+                                <span class="link-block">
                 <a href="https://arxiv.org/abs/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <!--span class="link-block">
+                                <span>arXiv</span>
+                                </a>
+                                </span>
+                                <!-- Video Link. -->
+                                <!--span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -201,85 +199,75 @@
                   <span>Video</span>
                 </a>
             </span-->
-              <!-- Code Link. -->
-              <span class="link-block">
+                                <!-- Code Link. -->
+                                <span class="link-block">
                 <a href="https://github.com/facebookresearch/home-robot"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
-                  </a>
-              </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
+                                <span>Code</span>
+                                </a>
+                                </span>
+                                <!-- Dataset Link. -->
+                                <span class="link-block">
                 <a href="https://aihabitat.org/challenge/2023_homerobot_ovmm/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
-                  <span>Compete</span>
-            	</a>
-	      </span>
+                                <span>Compete</span>
+                                </a>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/teaser.mp4"
                 type="video/mp4">
       </video>
-      <h2 class="subtitle has-text-centered">
-        Before we can have useful robot butlers in every home, we need to solve the problem of <strong>Open Vocabulary Mobile Manipulation (OVMM)</strong>:
-        being able to tell a robot to grasp <i>any</i> object, from <i>any</i> location in a potentially unexplored home, and have it accomplish the task.
-      </h2>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            <strong>HomeRobot</strong> (<i>noun</i>): An affordable compliant robot that navigates homes and manipulates a wide range of objects in order to complete everyday tasks.
-          </p>
-          <p>
-            Open-Vocabulary Mobile Manipulation (OVMM) is the problem of picking any
-            object in any unseen environment, and placing it in a commanded location. This is
-            a foundational challenge for robots to be useful assistants in human environments,
-            because it involves tackling sub-problems from across robotics: perception,
-            language understanding, navigation, and manipulation are all essential to OVMM.
-            In addition, integration of the solutions to these sub-problems poses its own
-            substantial challenges. To drive research in this area, we introduce the HomeRobot
-            OVMM benchmark, where an agent navigates household environments to
-            grasp novel objects and place them on target receptacles. HomeRobot has two
-            components: a simulation component, which uses a large and diverse curated
-            object set in new, high-quality multi-room home environments; and a real-world
-            component, providing a software stack for the low-cost Hello Robot Stretch to
-            encourage replication of real-world experiments across labs. We implement both
-            reinforcement learning and heuristic (model-based) baselines and show evidence
-            of sim-to-real transfer. Our baselines achieve a 20% success rate in the real world;
-            our experiments identify ways future research work improve performance.
-          </p>
+                <h2 class="subtitle has-text-centered">
+                    Before we can have useful robot butlers in every home, we need to solve the problem of <strong>Open Vocabulary Mobile Manipulation (OVMM)</strong>: being able to tell a robot to grasp <i>any</i> object, from <i>any</i> location in
+                    a potentially unexplored home, and have it accomplish the task.
+                </h2>
+            </div>
         </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
+    </section>
 
-    <!-- Paper video. -->
-    <!--div class="columns is-centered has-text-centered">
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            <strong>HomeRobot</strong> (<i>noun</i>): An affordable compliant robot that navigates homes and manipulates a wide range of objects in order to complete everyday tasks.
+                        </p>
+                        <p>
+                            Open-Vocabulary Mobile Manipulation (OVMM) is the problem of picking any object in any unseen environment, and placing it in a commanded location. This is a foundational challenge for robots to be useful assistants in human environments, because it involves
+                            tackling sub-problems from across robotics: perception, language understanding, navigation, and manipulation are all essential to OVMM. In addition, integration of the solutions to these sub-problems poses its own substantial
+                            challenges. To drive research in this area, we introduce the HomeRobot OVMM benchmark, where an agent navigates household environments to grasp novel objects and place them on target receptacles. HomeRobot has two components:
+                            a simulation component, which uses a large and diverse curated object set in new, high-quality multi-room home environments; and a real-world component, providing a software stack for the low-cost Hello Robot Stretch to encourage
+                            replication of real-world experiments across labs. We implement both reinforcement learning and heuristic (model-based) baselines and show evidence of sim-to-real transfer. Our baselines achieve a 20% success rate in the real
+                            world; our experiments identify ways future research work improve performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--/ Abstract. -->
+
+            <!-- Paper video. -->
+            <!--div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -289,34 +277,35 @@
       </div>
     </div>
     <!--/ Paper video. -->
-  </div-->
-</section>
+            </div-->
+    </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">The Task</h2>
-        <img src="./static/images/the_task.png"
-	   alt="Examples of Open Vocabulary Mobile Manipulation in different environments."/>
-        <div class="content has-text-justified">
-          <p>
-	  We consider tasks of the form "move the &lt;object&gt; from the &lt;start_receptacle&gt; to the &lt;goal_receptacle&gt;," and instantiate them both in simulation and in the real world.
-          </p>
-          <p>
-	  In simulation, we initally provide 50 scenes, with thousands of episodes and unique object instances. Objects are divided between <i>seen</i> and <i>unseen</i> categories: for example, at train time, we might see a <i>cup</i>, but we will not have seen the exact cup from our real world environments, and we will not have seen a toy elephant.
-	  </p>
-	  <p>
-           In the real world, we provide the <a href="https://github.com/facebookresearch/home-robot/">HomeRobot</a> library, which implements baseline methods for OVMM, as well as providing a real and simulated robotics stack. This robotics stack will allow researchers anywhere to get started on this exciting problem.
-	  </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">The Task</h2>
+                    <img src="./static/images/the_task.png" alt="Examples of Open Vocabulary Mobile Manipulation in different environments." />
+                    <div class="content has-text-justified">
+                        <p>
+                            We consider tasks of the form "move the &lt;object&gt; from the &lt;start_receptacle&gt; to the &lt;goal_receptacle&gt;," and instantiate them both in simulation and in the real world.
+                        </p>
+                        <p>
+                            In simulation, we initally provide 50 scenes, with thousands of episodes and unique object instances. Objects are divided between <i>seen</i> and <i>unseen</i> categories: for example, at train time, we might see a <i>cup</i>,
+                            but we will not have seen the exact cup from our real world environments, and we will not have seen a toy elephant.
+                        </p>
+                        <p>
+                            In the real world, we provide the <a href="https://github.com/facebookresearch/home-robot/">HomeRobot</a> library, which implements baseline methods for OVMM, as well as providing a real and simulated robotics stack. This robotics
+                            stack will allow researchers anywhere to get started on this exciting problem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <!--div class="columns is-centered has-text-centered">
+            <!-- Paper video. -->
+            <!--div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -326,14 +315,14 @@
       </div>
     </div>
     <!--/ Paper video. -->
-  </div-->
-</section>
+            </div-->
+    </section>
 
 
 
-    
 
-<!--section class="hero is-light is-small">
+
+    <!--section class="hero is-light is-small">
   <div class="hero-body">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -360,158 +349,157 @@
 </section-->
 
 
-<section class="section">
+    <section class="section">
 
 
-  <div class="container is-max-desktop">
+        <div class="container is-max-desktop">
 
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-	  <h2 class="title is-3">Simulation Examples</h2>
-	  <!--p>
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Simulation Examples</h2>
+                    <!--p>
 	  We provide 50 training scenes, each with thousands of episodes and unique objects. These constitute a large, uniquely challenging perception, manipulation, and planning problem. Training policies using reinforcement learning in simulation shows some promise, but there is a lot of progress to go.
 	  </p-->
-      </div>
-    </div>
+                </div>
+            </div>
 
-    <div class="columns is-centered">
+            <div class="columns is-centered">
 
-      <div class="column">
-        <div class="content">
-          <p>
-	  Move the box from the stand to the chair.
-          </p>
-	  <!-- removed controls -->
-          <video id="rw1" autoplay muted loop playsinline height="100%">
+                <div class="column">
+                    <div class="content">
+                        <p>
+                            Move the box from the stand to the chair.
+                        </p>
+                        <!-- removed controls -->
+                        <video id="rw1" autoplay muted loop playsinline height="100%">
             <source src="./static/videos/box-stand-chair-success.mp4"
                     type="video/mp4">
           </video>
-        </div>
-      </div>
+                    </div>
+                </div>
 
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-	    Move the multiport hub from the stool to the table.
-            </p>
-            <video id="rw2" autoplay muted loop playsinline height="100%">
+                <div class="column">
+                    <div class="columns is-centered">
+                        <div class="column content">
+                            <p>
+                                Move the multiport hub from the stool to the table.
+                            </p>
+                            <video id="rw2" autoplay muted loop playsinline height="100%">
               <source src="./static/videos/multiport_hub-stool-table_success.mp4"
                       type="video/mp4">
             </video>
-          </div>
-        </div>
-      </div>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="column">
-	<!--div class="content is-centered has-text-centered">
+                <div class="column">
+                    <!--div class="content is-centered has-text-centered">
         	<h2 class="title is-5">Toy Elephant on Table</h2>
 	</div-->
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-	    Move the toy construction set from the table to the stool.
-            </p>
-            <video id="rw2" autoplay muted loop playsinline height="100%">
+                    <div class="columns is-centered">
+                        <div class="column content">
+                            <p>
+                                Move the toy construction set from the table to the stool.
+                            </p>
+                            <video id="rw2" autoplay muted loop playsinline height="100%">
               <source src="./static/videos/toy_construction_set-table-stool-success.mp4"
                       type="video/mp4">
             </video>
-          </div>
-        </div>
-      </div>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
-</section>
-
-
-<section class="section">
+            </div>
+    </section>
 
 
-  <div class="container is-max-desktop">
+    <section class="section">
 
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Real World Examples</h2>
-      </div>
-    </div>
 
-    <div class="columns is-centered">
+        <div class="container is-max-desktop">
 
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-	  <div class="content is-centered has-text-centered">
-          	<h2 class="title is-5">Stuffed Animal on Sofa</h2>
-	  </div>
-          <p>
-             Here, the robot must find a stuffed animal on a chair and move it to the sofa. Neither the stuffed animal, the chair, nor the sofa have been seen before. 
-          </p>
-	  <!-- removed controls -->
-          <video id="rw1" autoplay muted loop playsinline height="100%">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Real World Examples</h2>
+                </div>
+            </div>
+
+            <div class="columns is-centered">
+
+                <!-- Visual Effects. -->
+                <div class="column">
+                    <div class="content">
+                        <div class="content is-centered has-text-centered">
+                            <h2 class="title is-5">Stuffed Animal on Sofa</h2>
+                        </div>
+                        <p>
+                            Here, the robot must find a stuffed animal on a chair and move it to the sofa. Neither the stuffed animal, the chair, nor the sofa have been seen before.
+                        </p>
+                        <!-- removed controls -->
+                        <video id="rw1" autoplay muted loop playsinline height="100%">
             <source src="./static/videos/ovmm_real_world_success_1_edited.mp4"
                     type="video/mp4">
           </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
+                    </div>
+                </div>
+                <!--/ Visual Effects. -->
 
-      <!-- Matting. -->
-      <div class="column">
-	<div class="content is-centered has-text-centered">
-        	<h2 class="title is-5">Toy Elephant on Table</h2>
-	</div>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-                Likewise, in this case the robot has to find a small toy elephant - which could be anywhere in the apartment, but is known to be on a chair - and place it on the dining table.
-            </p>
-            <video id="rw2" autoplay muted loop playsinline height="100%">
+                <!-- Matting. -->
+                <div class="column">
+                    <div class="content is-centered has-text-centered">
+                        <h2 class="title is-5">Toy Elephant on Table</h2>
+                    </div>
+                    <div class="columns is-centered">
+                        <div class="column content">
+                            <p>
+                                Likewise, in this case the robot has to find a small toy elephant - which could be anywhere in the apartment, but is known to be on a chair - and place it on the dining table.
+                            </p>
+                            <video id="rw2" autoplay muted loop playsinline height="100%">
               <source src="./static/videos/ovmm_real_world_success_2_edited.mp4"
                       type="video/mp4">
             </video>
-          </div>
+                        </div>
 
-        </div>
-      </div>
-    </div>
-</section>
+                    </div>
+                </div>
+            </div>
+    </section>
     <!--/ Matting. -->
 
 
-<section class="section">
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Related Links</h2>
+    <section class="section">
+        <!-- Concurrent Work. -->
+        <div class="columns is-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Related Links</h2>
 
-        <div class="content has-text-justified">
-          <p>
-            <a href="https://hello-robot.com/">Hello Robot</a>:
-            Builders of the Stretch robot which we use for HomeRobot. Check out their website for more information about the hardware we used, and for multiple guides on how to use your robot and take care of it.
-          </p>
-          <p>
-            <a href="https://aihabitat.org/challenge/2023_homerobot_ovmm/">NeurIPS 2023 HomeRobot: Open Vocabulary Mobile Manipulation (OVMM) Challenge</a>:
-            Compete on our new benchmark for a chance to win a Hello Robot Stretch!
-          </p>
-	<!--p>
+                <div class="content has-text-justified">
+                    <p>
+                        <a href="https://hello-robot.com/">Hello Robot</a>: Builders of the Stretch robot which we use for HomeRobot. Check out their website for more information about the hardware we used, and for multiple guides on how to use your robot
+                        and take care of it.
+                    </p>
+                    <p>
+                        <a href="https://aihabitat.org/challenge/2023_homerobot_ovmm/">NeurIPS 2023 HomeRobot: Open Vocabulary Mobile Manipulation (OVMM) Challenge</a>: Compete on our new benchmark for a chance to win a Hello Robot Stretch!
+                    </p>
+                    <!--p>
             <a href="https://usa.bolte.cc/">USA-Nets</a>: NeRF-style implicit world representation implemented and tested on top of HomeRobot.
 	</p>
 	<p>
             <a href="https://robotslap.github.io/">Spatial Language Attention Policies</a>: Learned robot manipulation policies implemented on multiple robots, using the HomeRobot stack for Stretch mobile manipulation.
 	</p-->
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
+        <!--/ Concurrent Work. -->
 
-  </div>
-</section>
+        </div>
+    </section>
 
 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>
 @article{homerobot,
   title = {HomeRobot: Open Vocabulary Mobile Manipulation},
   author = {Yenamandra, Sriram and Ramachandran, Arun and Yadav, Karmesh and Wang, Austin and
@@ -522,37 +510,36 @@
   year = {2023},
   url = {https://github.com/facebookresearch/home-robot},
 }</code></pre>
-  </div>
-</section>
-
-
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a> made by <a href="https://keunhong.com/">Keunhong Park</a>.
-          </p>
         </div>
-      </div>
-    </div>
-  </div>
-</footer>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+                        <p>
+                            Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a> made by <a href="https://keunhong.com/">Keunhong Park</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
