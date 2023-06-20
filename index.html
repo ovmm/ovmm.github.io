@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="HomeRobot: Open-Vocabulary Mobile Manipulation.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="keywords" content="Robotics, sim-to-real, mobile manipulation, benchmarking">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HomeRobot: Open Vocabulary Mobile Manipulation</title>
 
@@ -88,29 +88,8 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">HomeRobot: Open Vocabulary Mobile Manipulation</h1>
           <div class="is-size-5 publication-authors">
-            <!--
-              Sriram Yenamandra$^{*1}$       &  %
-              Arun Ramachandran$^{*1}$       &  %
-              Karmesh Yadav$^{*1,2}$         &  %
-              Austin Wang$^{1}$              \\ %
-              Mukul Khanna$^{1}$             &  %
-              Theophile Gervet$^{2,3}$       & 
-              Tsung-Yen Yang$^2$             & 
-              Vidhi Jain$^{3}$               \\
-              Alexander William Clegg$^{2}$  & 
-              John Turner$^{2}$              &  %
-              Zsolt Kira$^{1}$               &
-              Manolis Savva$^{4}$            \\
-              Angel Chang$^{4}$              & 
-              Devendra Singh Chaplot$^{2}$   & 
-              Dhruv Batra$^{1,2}$            &  %
-              Roozbeh Mottaghi$^{2}$         \\ %
-                                             &  %
-              Yonatan Bisk$^{2,3}$           &  %
-              Chris Paxton$^{2}$             &  %
-            -->
             <span class="author-block">
               Sriram Yenamandra<sup>*1</sup>,</span>
             <span class="author-block">
@@ -161,8 +140,12 @@
               Yonatan Bisk<sup>2,3</sup>,
             </span>
             <span class="author-block">
-              Chris Paxton<sup>2</sup>,
+              Chris Paxton<sup>2</sup>
             </span>
+          </div>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>*</sup>Equal contribution</span>
           </div>
 
           <div class="is-size-5 publication-authors">
@@ -176,7 +159,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="./OVMM_ArXiv.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -194,7 +177,7 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!--span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -202,7 +185,7 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+            </span-->
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/facebookresearch/home-robot"
@@ -239,16 +222,15 @@
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        Before we can have useful robot butlers in every home, we need to solve the problem of <strong>Open Vocabulary Mobile Manipulation (OVMM)</strong>:
+        being able to tell a robot to grasp <i>any</i> object, from <i>any</i> location in a potentially unexplored home, and have it accomplish the task.
       </h2>
     </div>
   </div>
 </section>
 
 
-<section class="hero is-light is-small">
+<!-- section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -303,7 +285,7 @@
       </div>
     </div>
   </div>
-</section>
+</section -->
 
 
 <section class="section">
@@ -314,31 +296,25 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            <strong>HomeRobot</strong> (<i>noun</i>): An affordable compliant robot that navigates homes and manipulates a wide range of objects in order to complete everyday tasks.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Open-Vocabulary Mobile Manipulation (OVMM) is the problem of picking any
+            object in any unseen environment, and placing it in a commanded location. This is
+            a foundational challenge for robots to be useful assistants in human environments,
+            because it involves tackling sub-problems from across robotics: perception,
+            language understanding, navigation, and manipulation are all essential to OVMM.
+            In addition, integration of the solutions to these sub-problems poses its own
+            substantial challenges. To drive research in this area, we introduce the HomeRobot
+            OVMM benchmark, where an agent navigates household environments to
+            grasp novel objects and place them on target receptacles. HomeRobot has two
+            components: a simulation component, which uses a large and diverse curated
+            object set in new, high-quality multi-room home environments; and a real-world
+            component, providing a software stack for the low-cost Hello Robot Stretch to
+            encourage replication of real-world experiments across labs. We implement both
+            reinforcement learning and heuristic (model-based) baselines and show evidence
+            of sim-to-real transfer. Our baselines achieve a 20% success rate in the real world;
+            our experiments identify ways future research work improve performance.
           </p>
         </div>
       </div>
@@ -346,7 +322,7 @@
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!--div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -356,7 +332,7 @@
       </div>
     </div>
     <!--/ Paper video. -->
-  </div>
+  </div-->
 </section>
 
 
