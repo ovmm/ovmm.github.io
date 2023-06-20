@@ -278,7 +278,7 @@
 
     
 
-<section class="hero is-light is-small">
+<!--section class="hero is-light is-small">
   <div class="hero-body">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -288,13 +288,13 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-rw1">
-          <video poster="" id="" autoplay controls muted loop playsinline height="100%">
+          <video poster="" id="rw1" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/ovmm_real_world_success_1_edited.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-rw2">
-          <video poster="" id="" autoplay controls muted loop playsinline height="100%">
+          <video poster="" id="rw2" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/ovmm_real_world_success_2_edited.mp4"
                     type="video/mp4">
           </video>
@@ -302,7 +302,7 @@
       </div>
     </div>
   </div>
-</section>
+</section-->
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -312,13 +312,12 @@
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Stuffed Animal on Sofa</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+             Here, the robot must find a stuffed animal on a chair and move it to the sofa. Neither the stuffed animal, the chair, nor the sofa have been seen before. 
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
+          <video id="rw1" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/ovmm_real_world_success_1_edited.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -327,15 +326,14 @@
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Toy Elephant</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+                Likewise, in this case the robot has to find a small toy elephant - which could be anywhere in the apartment, but is known to be on a chair - and place it on the dining table.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+            <video id="rw2" controls playsinline height="100%">
+              <source src="./static/videos/ovmm_real_world_success_2_edited.mp4"
                       type="video/mp4">
             </video>
           </div>
