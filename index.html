@@ -297,30 +297,25 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            <strong><homerobot></homerobot></strong> (<i>noun</i>): An affordable compliant robot that navigates homes and manipulates a wide range of objects in order to complete everyday tasks.
+            <strong>HomeRobot</strong> (<i>noun</i>): An affordable compliant robot that navigates homes and manipulates a wide range of objects in order to complete everyday tasks.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Open-Vocabulary Mobile Manipulation (OVMM) is the problem of picking any
+            object in any unseen environment, and placing it in a commanded location. This is
+            a foundational challenge for robots to be useful assistants in human environments,
+            because it involves tackling sub-problems from across robotics: perception,
+            language understanding, navigation, and manipulation are all essential to OVMM.
+            In addition, integration of the solutions to these sub-problems poses its own
+            substantial challenges. To drive research in this area, we introduce the HomeRobot
+            OVMM benchmark, where an agent navigates household environments to
+            grasp novel objects and place them on target receptacles. HomeRobot has two
+            components: a simulation component, which uses a large and diverse curated
+            object set in new, high-quality multi-room home environments; and a real-world
+            component, providing a software stack for the low-cost Hello Robot Stretch to
+            encourage replication of real-world experiments across labs. We implement both
+            reinforcement learning and heuristic (model-based) baselines and show evidence
+            of sim-to-real transfer. Our baselines achieve a 20% success rate in the real world;
+            our experiments identify ways future research work improve performance.
           </p>
         </div>
       </div>
