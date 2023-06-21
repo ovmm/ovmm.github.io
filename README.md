@@ -3,6 +3,7 @@
 This is the repository that contains source code for the [OVMM website](https://ovmm.github.io).
 
 If you find Nerfies useful for your work please cite:
+```
 @article{homerobot,
   title = {HomeRobot: Open Vocabulary Mobile Manipulation},
   author = {Yenamandra, Sriram and Ramachandran, Arun and Yadav, Karmesh and Wang, Austin and Khanna, Mukul and Gervet, Theophile and Yang, Tsung-Yen and Jain, Vidhi and Clegg,
