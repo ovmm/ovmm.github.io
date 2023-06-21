@@ -1,4 +1,4 @@
-# Nerfies
+# Open Vocabulary Mobile Manipulation
 
 This is the repository that contains source code for the [OVMM website](https://ovmm.github.io).
 
