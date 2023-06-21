@@ -1,14 +1,15 @@
 # Nerfies
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [OVMM website](https://ovmm.github.io).
 
 If you find Nerfies useful for your work please cite:
-```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{homerobot,
+  title = {HomeRobot: Open Vocabulary Mobile Manipulation},
+  author = {Yenamandra, Sriram and Ramachandran, Arun and Yadav, Karmesh and Wang, Austin and Khanna, Mukul and Gervet, Theophile and Yang, Tsung-Yen and Jain, Vidhi and Clegg,
+	    Alexander William and Turner, John and Kira, Zsolt and Savva, Manolis and Chang, Angel and Chaplot, Devendra Singh and Batra, Dhruv and Mottaghi, Roozbeh and 
+      Bisk, Yonatan and Paxton, Chris},
+  year = {2023},
+  url = {https://arxiv.org/abs/2306.11565},
 }
 ```
 
